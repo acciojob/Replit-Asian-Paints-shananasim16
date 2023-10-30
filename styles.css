@@ -1,40 +1,35 @@
 /*  your css code here. If applicable */
-#grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+.container div{
+	padding: 10px;
 }
-
-.grid-item {
-    width: 100px;
-    height: 100px;
-    background-color: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
+.container #d1{
+	background-color:yellow;
 }
-
-#block_id {
-    margin-right: 10px;
+#d2{
+	background-color:gray;
 }
-
-#colour_id {
-    margin-right: 10px;
+#d3{
+	background-color:green;
 }
-
-#change_button {
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
+#d4{
+	background-color:blue;
 }
-
-#reset_button {
-    background-color: #DC3545;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
+#d5{
+	background-color:violet;
+}
+#d6{
+	background-color:orange;
+}
+#d7{
+	background-color:purple;
+}
+#d8{
+	background-color:lightblue;
+}
+#d9{
+	background-color:yellowgreen;
+}
+.container{
+	display: grid;
+	grid-template-columns: auto auto auto;
 }
