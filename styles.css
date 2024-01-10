@@ -1,35 +1,21 @@
 /*  your css code here. If applicable */
-.container div{
-	padding: 10px;
-}
-.container #d1{
-	background-color:yellow;
-}
-#d2{
-	background-color:gray;
-}
-#d3{
-	background-color:green;
-}
-#d4{
-	background-color:blue;
-}
-#d5{
-	background-color:violet;
-}
-#d6{
-	background-color:orange;
-}
-#d7{
-	background-color:purple;
-}
-#d8{
-	background-color:lightblue;
-}
-#d9{
-	background-color:yellowgreen;
-}
-.container{
-	display: grid;
-	grid-template-columns: auto auto auto;
-}
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .grid-item {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .grid-item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
